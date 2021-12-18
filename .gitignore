@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+CODE_OF_CONDUCT.md
+README.md
+CONTRIBUTING.md
