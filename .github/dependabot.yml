@@ -1,6 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "php" # See documentation for possible values
-    directory: "github/" # Location of package manifests
+    directory: "github/security" # Location of package manifests
     schedule: 5
       interval: "daily"
