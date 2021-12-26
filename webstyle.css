@@ -2,3 +2,58 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0.55%
 }
+* {
+
+    background: linear-gradient(270deg, #18181b, #a3a3a3);
+
+    background-size: 400% 400%;
+
+    -webkit-animation: zetroubg 30s ease infinite;
+
+    -moz-animation: zetroubg 30s ease infinite;
+
+    -o-animation: zetroubg 30s ease infinite;
+
+    animation: zetroubg 30s ease infinite;
+
+}
+
+@-webkit-keyframes zetroubg {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+@-moz-keyframes zetroubg {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+@-o-keyframes zetroubg {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
+
+@keyframes zetroubg {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 50%}
+
+    100%{background-position:0% 50%}
+
+}
