@@ -1,5 +1,0 @@
-version: 2
-updates:
-    directory: "github/security" # Location of package manifests
-    schedule: 5
-      interval: "daily"
