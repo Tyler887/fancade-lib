@@ -28,32 +28,4 @@
 
 }
 
-@-moz-keyframes zetroubg {
-
-    0%{background-position:0% 50%}
-
-    50%{background-position:100% 50%}
-
-    100%{background-position:0% 50%}
-
-}
-
-@-o-keyframes zetroubg {
-
-    0%{background-position:0% 50%}
-
-    50%{background-position:100% 50%}
-
-    100%{background-position:0% 50%}
-
-}
-
-@keyframes zetroubg {
-
-    0%{background-position:0% 50%}
-
-    50%{background-position:100% 50%}
-
-    100%{background-position:0% 50%}
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Baloo+Bhaina+2:wght@800&family=Readex+Pro:wght@500&family=Roboto+Mono:wght@500&family=Ubuntu:wght@700&display=swap');
