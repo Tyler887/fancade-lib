@@ -5,3 +5,6 @@ _site/
 CODE_OF_CONDUCT.md
 README.md
 CONTRIBUTING.md
+.git/
+
+.DS_Store
