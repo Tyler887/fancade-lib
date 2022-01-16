@@ -1,1 +1,19 @@
-license: apache-2.0
+{
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo "No Tests Required" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyler887/fancade-lib.git"
+  },
+  "keywords": [],
+  "author": "@Tyler887",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Tyler887/fancade-lib/issues"
+  },
+  "homepage": "https://tyler887.github.io/fancade-lib"
+}
