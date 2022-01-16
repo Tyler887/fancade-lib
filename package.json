@@ -2,9 +2,7 @@
   "name": "my_package",
   "description": "",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo "No Tests Required" && exit 0"
-  },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/Tyler887/fancade-lib.git"
