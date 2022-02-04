@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: Tyler887/jekyllbuild@1.2
+      - uses: actions/jekyll-build-pages@1.0
       - uses: actions/upload-artifact@v2
         with:
           name: github-pages
