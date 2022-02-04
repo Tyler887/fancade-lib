@@ -1,0 +1,9 @@
+name: Jekyll Deployment
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    uses: Tyler887/JekyllBuild@1.1
+  deployment:
+    uses: actions/deploy-pages@main
