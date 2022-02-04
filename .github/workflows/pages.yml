@@ -14,6 +14,7 @@ jobs:
           path: ./_site
   deployment:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy
-        uses: actions/upload-artifact@v2
+        uses: actions/deploy-pages@main
