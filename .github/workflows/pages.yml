@@ -19,4 +19,5 @@ jobs:
       - name: Deploy
         uses: actions/deploy-pages@main
         env:
-          ACTIONS_ID_TOKEN_REQUEST_URL: ${{ secrets.GITHUB_TOKEN }}
+          ACTIONS_ID_TOKEN_REQUEST_URL: https://tyler887.github.io/fancade-lib
+          ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${{ secrets.GITHUB_TOKEN }}
