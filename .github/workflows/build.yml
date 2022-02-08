@@ -14,7 +14,7 @@ jobs:
         with:
          name: pb
          path: ./jekyll
-      - run: sudo apt-get uninstall jekyll
+      - run: sudo apt purge jekyll
   build:
     runs-on: ubuntu-latest
     name: Jekyll Build
