@@ -8,11 +8,13 @@ jobs:
     name: Jekyll Pre-Build
     steps:
       - uses: actions/checkout@v2
+      - run: sudo apt-get install jekyll
       - run: jekyll build ./ ./jekyll
       - uses: actions/upload-artifact@v2
         with:
          name: pb
          path: ./jekyll
+      - run: sudo apt-get uninstall jekyll
   build:
     runs-on: ubuntu-latest
     name: Jekyll Build
