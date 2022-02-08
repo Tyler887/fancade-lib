@@ -8,7 +8,7 @@ Released under the [Apache License, version 2](https://github.com/Tyler887/fanca
 
 Contributions are welcome in the form of issues and PRs.
 ### Embedded versions
-I do not recommend that you embed urls starting with `tyler887.github.io/fancade-lib` since there may be text poping up on the html. I recommend you embed the `play.fancade.com` domain to embed a Fancade game. This example is an embed version of Drive Mad:
+I do not recommend that you embed urls starting with `tyler887.github.io/fancade-lib` since there may be text poping up on the html. I recommend you embed the `play.fancade.com` domain to embed a Fancade game. This example is an embed version of Drive Mad with the `fancade` identifier:
 ```html
-<iframe id="fancade" src="https://play.fancade.com/5F084A0BCE06B710?max_w=2800&max_h=2800" frameborder="0" height="100%" width="100%" title=Drive Mad • Play online"></iframe> 
+<iframe id="fancade" src="https://play.fancade.com/5F084A0BCE06B710?max_w=2800&max_h=2800" frameborder="0" height="100%" width="100%" title=fancade></iframe> 
 ```
