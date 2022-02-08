@@ -3,6 +3,16 @@ name: Jekyll
 on: [push, pull_request]
 
 jobs:
+  prebuild:
+    runs-on: ubuntu-latest
+    name: Jekyll Pre-Build
+    steps:
+      - uses: actions/checkout@v2
+      - run: jekyll build ./ ./jekyll
+      - uses: actions/upload-artifact@v2
+        with:
+         name: pb
+         path: ./jekyll
   build:
     runs-on: ubuntu-latest
     name: Jekyll Build
