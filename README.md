@@ -13,3 +13,11 @@ I do not recommend that you embed urls starting with `tyler887.github.io/fancade
 <iframe id="fancade" src="https://play.fancade.com/5F084A0BCE06B710?max_w=2800&max_h=2800" frameborder="0" height="100%" width="100%" title=fancade></iframe> 
 ```
 Copy this into your HTML code, and you should get a play screen for the game.
+
+### Testing
+Here's how:
+```sh
+git clone https://github.com/Tyler887/fancade-lib.git
+cd fancade-lib
+# Start server, ideally with Project Cowserve
+```
